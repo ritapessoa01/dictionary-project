@@ -1,0 +1,10 @@
+footer {
+  margin: 30px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #384d48;
+  font-weight: 700;
+  font-style: italic;
+}

@@ -1,8 +1,9 @@
 import React from "react";
+import "./Footer.css";
 
 export default function Footer() {
   return (
-    <div>
+    <footer>
       This project was coded by{" "}
       <a
         href="https://github.com/ritapessoa01"
@@ -27,6 +28,6 @@ export default function Footer() {
       >
         Netlify
       </a>
-    </div>
+    </footer>
   );
 }

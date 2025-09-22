@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  margin-top: 80px;
+}
+.App header {
+  font-size: 45px;
+  font-weight: 700;
+  color: #384d48;
+  line-height: 2;
+}
+
+.App h1 {
+  font-size: 27px;
+  font-weight: 400;
+}

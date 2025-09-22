@@ -1,3 +1,25 @@
-.Dictionary {
-  font-weight: 400;
+.Dictionary form {
+  font-size: 17px;
+}
+
+.Dictionary .search-input {
+  border: none;
+  background-color: rgba(56, 77, 72, 0.3);
+  border-radius: 25px;
+  padding: 12px 23px;
+  max-width: 400px;
+}
+
+.Dictionary .submit-input {
+  border: none;
+  background-color: #384d48;
+  color: white;
+  border-radius: 25px;
+  padding: 12px;
+  max-width: 110px;
+  transition: box-shadow ease-in 150ms;
+}
+
+.Dictionary .submit-input:hover {
+  box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.3);
 }

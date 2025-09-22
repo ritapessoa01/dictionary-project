@@ -25,13 +25,17 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <form onSubmit={search}>
+      <form
+        onSubmit={search}
+        className="row d-flex justify-content-center m-5 gap-3"
+      >
         <input
           type="search"
           onChange={handleKeywordChange}
           placeholder="Enter a word..."
+          className="col-6 search-input"
         />
-        <input type="submit" />
+        <input type="submit" value="Search" className="col-2 submit-input" />
       </form>
       <Results results={results} />
     </div>

@@ -13,6 +13,7 @@ export default function Result(props) {
             </div>
           );
         })}
+        <div className="credits">Definitions from the SheCodes API 💜</div>
       </div>
     );
   } else {

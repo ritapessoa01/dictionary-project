@@ -9,11 +9,15 @@ export default function Result(props) {
         <h2>{props.results.word}</h2>
         <h5>{props.results.phonetic}</h5>
         {props.results.meanings.map(function (meaning, index) {
-          return (
-            <div key={index}>
-              <Meaning meaning={meaning} />
-            </div>
-          );
+          if (index < 4) {
+            return (
+              <div key={index}>
+                <Meaning meaning={meaning} />
+              </div>
+            );
+          } else {
+            return null;
+          }
         })}
         <div className="credits">Definitions from the SheCodes API 💜</div>
       </div>

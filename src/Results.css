@@ -1,0 +1,22 @@
+.Results {
+  text-align: left;
+  max-width: 700px;
+}
+
+.Results h2 {
+  font-size: 35px;
+  font-weight: 700;
+  color: #384d48;
+  line-height: 0.8;
+}
+
+.Results h5 {
+  font-weight: 500;
+  color: #384d48;
+  opacity: 75%;
+}
+
+.Results .credits {
+  text-align: center;
+  color: #384d48;
+}

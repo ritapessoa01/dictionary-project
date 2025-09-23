@@ -1,0 +1,11 @@
+.extras strong {
+  color: #384d48;
+}
+.extras {
+  margin-left: 38px;
+  opacity: 70%;
+}
+
+.extras .synonyms {
+  margin-right: 25px;
+}

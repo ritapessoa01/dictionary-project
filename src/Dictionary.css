@@ -17,7 +17,7 @@
   border-radius: 25px;
   padding: 12px;
   max-width: 110px;
-  transition: box-shadow ease-in 150ms;
+  transition: all ease-in 150ms;
 }
 
 .Dictionary .submit-input:hover {
